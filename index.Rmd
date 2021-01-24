@@ -1,0 +1,23 @@
+---
+title: "test_githubpages"
+author: "Michal Czyz"
+date: "1/24/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Bjutiful page
+
+Lorem ipsum...
+
+```{r echo = FALSE}
+
+x = rnorm(1000, 10, 3.5)
+y = x^2 + 2*x + 0.87
+
+
+plot(x,y)
+```
